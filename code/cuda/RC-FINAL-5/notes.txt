@@ -1,0 +1,6 @@
+This is branched from rc-beta. 
+rc-beta is brought in from newton.cs.purdue.edu machine. 
+rc-beta is the first release version which fixed issues with subsampling bug. 
+rc-beta and rc-alpha suffers from the same problem for mushrooms dataset, where
+for subsampling/nonuniform sampling for 100 iterations, the cost function actually 
+increases. This needs to be looked into. MATLAB version just works fine. 
